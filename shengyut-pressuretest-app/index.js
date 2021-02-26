@@ -1,5 +1,15 @@
 const axios = require('axios');
 const asyncPool = require('tiny-async-pool');
+// const https = require('https')
+
+// instance = axios.create({
+//     timeout: 300000, // ms
+//     httpsAgent: new https.Agent({ keepAlive: true })
+//     // HTTP keep-alive, a.k.a., HTTP persistent connection, is an instruction that allows a single TCP connection to remain open for multiple HTTP requests/responses.
+// })
+
+// axios.defaults.timeout = 300000; // ms
+// axios.defaults.httpsAgent = new https.Agent({ keepAlive: true });
 
 const sendPostRequest = () => {
     return new Promise((resolve, reject) => {

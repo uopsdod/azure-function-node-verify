@@ -8,6 +8,7 @@
   "author": "",
   "dependencies": {
     "axios": "^0.21.1",
+    "https": "^1.0.0",
     "tiny-async-pool": "^1.2.0"
   }
 }
